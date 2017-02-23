@@ -1,51 +1,107 @@
-/*
-Teal color (used for headings and backgrounds): #4aaaa5
-Regular font color (used for paragraphs and all text besides the headings): #777777
-*/
-
-
+* {
+  box-sizing: border-box;
+}
 body {
-		background-image: url(http://i65.tinypic.com/2n1su9d.jpg);
-		}
-
-h1,h2,h3, .background {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-		}
-
-p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+	background: #E1E0E7;
+  font-family: "helvetica";
+  padding:60px;
+}
+header {
+	background: #EADDDB;
+}
+main {
+	background: #F4F4F4;
 }
 
-.top-panel{
-	background-color: #ffffff;
-	border-color: #cccccc;
-	text-align: center;
-	border: solid;
-	}
+footer {
+  clear: both;
+  text-align: center;
+	color: #fff;
+	padding: 20px 0;
+}
+.card {
+  background: #fff;
+  box-shadow: 0 2px 8px #fff;
+  padding: 20px;
+}
+.container {
+	width: 950px;
+	margin:0 auto; 
+  padding: 60px	
+}
+.container:after { 
+  content: "";
+  display: table;
+  clear: both;
+}
+.mypix {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border: 1px solid #cecece;
+  padding: 5px;
+  box-shadow: 0 2px 8px #777;
+}
+.content{
+  width: 75%;
+  float: left;
+}
+.conten{
+  font-size: 35px;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+.sidebar {
+  width: 25%;
+  float: right;
+}
+.sidebar h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.sidebar ul {
+  padding-left: 0;
 
-.center-panel{
-	background-color: #ffffff;
-	border-color: #dddddd;
-	float: left;
-	border: solid;
-	text-align: center;
-	width: 43%;
-	}
+}
+.sidebar ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.sidebar ul li{
+  display: inline-block;
+}
+a.twitter {
+  background-color: #1da1f2;
+}
+a.linkedin {
+  background-color: #0077b5;
+}
+a.stackoverflow {
+  background-color: #f48024;
+}
 
-.bottom-panel{
-	background color: #666666;
-	}
 
-.left-panel{
-	float: left;
-	border: solid;
-	width: 337px;
-	}
 
-.right-panel{
-	float: right;
-	border: solid;
-	width: 30%
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
